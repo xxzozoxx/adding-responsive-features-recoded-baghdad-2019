@@ -12,6 +12,7 @@
     display:inline;
   }
   
+  
 }
 @media only scree and (max-width: 900px){
   body{
@@ -28,7 +29,9 @@
     top:72px;
   }
   .col-3 p{
-    
+     -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
     
   }
 }
